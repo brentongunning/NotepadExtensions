@@ -8,7 +8,7 @@
 
 #include "stdafx.h"
 #include "SystemHook.h"
-#include "..\Common\Error.h"
+#include "Error.h"
 #include "NotepadHook.h"
 
 // ----------------------------------------------------------------------------

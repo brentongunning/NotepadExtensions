@@ -8,7 +8,7 @@
 
 #include "stdafx.h"
 #include "Hook.h"
-#include "../Common/Error.h"
+#include "Error.h"
 
 // ----------------------------------------------------------------------------
 // METHODS

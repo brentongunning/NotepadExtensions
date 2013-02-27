@@ -2,8 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Notepad Extensions", "Notepad Extensions\Notepad Extensions.vcxproj", "{D1969CC7-A2F7-4FE9-AD37-2E18EB539DF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15} = {34B2E3B5-9231-4169-922F-9FC0FFDDDC15}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Notepad Extensions Hook", "Notepad Extensions Hook\Notepad Extensions Hook.vcxproj", "{350888F0-2140-4024-AC4E-9AAE0CB2A79F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15} = {34B2E3B5-9231-4169-922F-9FC0FFDDDC15}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +37,12 @@ Global
 		{350888F0-2140-4024-AC4E-9AAE0CB2A79F}.Release|Win32.Build.0 = Release|Win32
 		{350888F0-2140-4024-AC4E-9AAE0CB2A79F}.Release|x64.ActiveCfg = Release|x64
 		{350888F0-2140-4024-AC4E-9AAE0CB2A79F}.Release|x64.Build.0 = Release|x64
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Debug|Win32.Build.0 = Debug|Win32
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Debug|x64.ActiveCfg = Debug|x64
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Release|Win32.ActiveCfg = Release|Win32
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Release|Win32.Build.0 = Release|Win32
+		{34B2E3B5-9231-4169-922F-9FC0FFDDDC15}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

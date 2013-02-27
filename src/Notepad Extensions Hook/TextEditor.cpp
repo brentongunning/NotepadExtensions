@@ -8,7 +8,7 @@
 
 #include "stdafx.h"
 #include "TextEditor.h"
-#include "../Common/Error.h"
+#include "Error.h"
 
 // ----------------------------------------------------------------------------
 // STATIC MEMBER VARIABLES

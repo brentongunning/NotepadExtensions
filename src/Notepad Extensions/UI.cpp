@@ -8,7 +8,7 @@
 
 #include "stdafx.h"
 #include "UI.h"
-#include "../Common/Error.h"
+#include "Error.h"
 #include "resource.h"
 
 // ----------------------------------------------------------------------------
@@ -253,7 +253,7 @@ void UI::DisplayAboutInformation()
         "Extends the Windows Notepad program with a few additional features.\n"
         "\n"
         "Developed by Brenton Gunning\n",
-        "About Notepad Extensions 1.0", MB_OK);
+        "About Notepad Extensions 1.1", MB_OK);
 }
 
 // ----------------------------------------------------------------------------

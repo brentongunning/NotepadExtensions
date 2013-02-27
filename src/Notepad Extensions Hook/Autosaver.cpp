@@ -8,7 +8,7 @@
 
 #include "stdafx.h"
 #include "Autosaver.h"
-#include "../Common/Error.h"
+#include "Error.h"
 
 // ----------------------------------------------------------------------------
 // STATIC MEMBER VARIABLES

@@ -10,7 +10,7 @@
 #include "NotepadHook.h"
 #include "Autosaver.h"
 #include "TextEditor.h"
-#include "../Common/Error.h"
+#include "Error.h"
 
 // ----------------------------------------------------------------------------
 // DEFINITIONS
