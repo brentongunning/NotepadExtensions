@@ -84,6 +84,14 @@ void TextEditor::InsertNewLineWithSameIndentation()
 
 // ----------------------------------------------------------------------------
 
+string TextEditor::ReadContents()
+{
+	GetContents();
+	return string(_contents);
+}
+
+// ----------------------------------------------------------------------------
+
 void TextEditor::GetContents()
 {
     _contentsLength = GetWindowText(_editControlHandle, _contents, MAX_FILE_LENGTH);

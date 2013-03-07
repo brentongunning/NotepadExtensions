@@ -27,6 +27,8 @@ public:
     bool Initialize(HWND notepadWindowHandle);
     void InsertNewLineWithSameIndentation();
 
+	string ReadContents();
+
 private:
     void GetContents();
     void ReplaceText(int caret, int length, const char* text);
