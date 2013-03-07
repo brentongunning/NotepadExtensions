@@ -1,4 +1,4 @@
-Notepad Extensions 1.0
+Notepad Extensions 1.2
 
 About
 
